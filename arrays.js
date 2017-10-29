@@ -29,3 +29,22 @@ function accessElementInArray (array, index){
 function destructivelyRemoveElementFromBeginningOfArray(array){
   return array.slice(1)
 }
+
+function removeElementFromBeginningOfArray(array){
+  var newArray = array
+  newArray.slice(1);
+  return newArray;
+}
+
+function destructivelyAddElementToEndOfArray(array){
+  array.pop();
+  return array;
+}
+
+function removeElementFromEndOfArray(array){
+  var newArray = array
+  newArray.slice(0, newArray.length - 1)
+  return newArray;
+}
+
+function 
